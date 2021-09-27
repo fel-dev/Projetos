@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+body {
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96%);
+    font-family: 'Roboto', sans-serif;
+}
+/*para estilizar uma classe .nomeDaClasse*/
+.conteiner {
+    background: #ECF4FF;
+    color: #1C1C1C;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    padding: 64px;
+}
+.cabecalho {
+    display: flex;
+    justify-content:space-between;
+}
+.perfil {
+    display: flex;
+}
+
+.perfil-foto {
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.perfil-foto-redes {
+    max-height: 32px;
+    border-radius: 100px ;
+    color: #1C1C1C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.perfil-item a {
+    list-style: none;
+    text-decoration: none;
+    font: normal 12pt "roboto";
+    color: #1C1C1C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius:50px;
+}
+.titulo {
+    margin: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700px;
+    font-size: 36px;
+}
+
+.titulo h3 {
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+.tema button {
+    /* align-self: flex-end; */
+    justify-self: left;
+    font-size: 11px;
+    font-weight: 400px;
+    padding: 8px 16px;
+    color: #0E1D2F;
+    border-radius: 100px;
+
+}
+.projetos {
+    display: flex;
+    flex-direction:column;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    padding: 32px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+
+}
+
+.projetos-titulo {
+    list-style: none;
+    font-weight: 700px;
+    font-size: 36px;
+}
+
+.projetos-item {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+    padding: 25px;
+    
+
+}
+
+.projetos-item a {
+    color: #1C1C1C;
+    text-decoration:wavy;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 5px;
+    border: 2px solid rgba(16, 16, 16, 0.42);
+}
+
+footer{
+    color: #1C1C1C;
+    text-align: center;
+    text-shadow: 5px 5px 15px #ECF4FF;
+    font: italic 9pt "roboto";
+}
+
+
+.dark {
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .conteiner {
+    background: #333439;
+    color: #F7F7F7;
+}
+
+.dark .projetos {
+    color: #1C1C1C;
+}
+
+.dark .tema button {
+    background: #1C1C1C;
+    color: #FFFFFF;
+    border: 2px solid #F7F7F7;
+}
+
+.dark .perfil-item a {
+    list-style: none;
+    text-decoration: none;
+    font: normal 12pt "roboto";
+    color: #F7F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #1C1C1C;
+    color: #FFFFFF;
+    border: 2px solid #F7F7F7;
+    border-radius:100px;
+}
+.dark .perfil-foto-redes img {
+    background: #1C1C1C;
+    color: #FFFFFF;
+    border: 2px solid #F7F7F7;
+}
