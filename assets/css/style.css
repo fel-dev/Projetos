@@ -1,0 +1,56 @@
+/* celular telinha */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    /* Styles */
+}
+/* celular normal */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    /* Styles */
+}
+
+/* desktop */
+@media only screen
+and (min-device-width: 1080px)
+and (max-device-width: 1920px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+    /* Styles olive*/
+    body{
+        background-color: #f5f5f5;
+
+    }
+    header .container {
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        
+    }
+   /* logo a esquerda */
+    header .container .logo {
+        float: left;
+        width: 50%;
+        max-width: 50%;
+    }
+    /* header nav */
+    header .container nav {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+/* tablet notebook com tela 14'' */
+@media only screen
+and (min-device-width: 1280px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    /* Styles */
+}
+
+
