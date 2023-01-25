@@ -1,56 +1,59 @@
-/* celular telinha */
+header{
+
+    /* bg color linear gradiant top blue down white*/
+    background: linear-gradient(to bottom, #0000ff 0%, #ffffff 100%);
+    text-align: center;
+    padding: 10px;
+}
+
+header .menu {
+
+}
+
+
+
+
+.container{
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+footer{
+    background: linear-gradient(to bottom, #f0f0f0 0%, #0000ff 100%);
+    text-align: center;
+    padding: 10px;
+}
+
+/* celular */
 @media only screen 
 and (min-device-width: 375px) 
 and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
     /* Styles */
-}
-/* celular normal */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-    /* Styles */
+    body {
+        background-color: rgb(20, 21, 12);
+        color: goldenrod;
+    }
 }
 
-/* desktop */
-@media only screen
-and (min-device-width: 1080px)
-and (max-device-width: 1920px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
-    /* Styles olive*/
-    body{
-        background-color: #f5f5f5;
-
-    }
-    header .container {
-        width: 100%;
-        max-width: 100%;
-        position: fixed;
-        
-    }
-   /* logo a esquerda */
-    header .container .logo {
-        float: left;
-        width: 50%;
-        max-width: 50%;
-    }
-    /* header nav */
-    header .container nav {
-        width: 100%;
-        max-width: 100%;
-    }
-}
-/* tablet notebook com tela 14'' */
+/* tablet notebook com tela 14''
 @media only screen
 and (min-device-width: 1280px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
-    /* Styles */
-}
+      
+    body {
+        background-color: rgb(16, 234, 219);
+    }
+} */
 
 
