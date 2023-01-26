@@ -3,9 +3,36 @@ header{
     text-align: center;
     padding: 10px;
 }
-header .menu {
-
+.container .menu {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
 }
+.container .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container .menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.container .menu ul li a {
+    color: #0000ff;
+    text-decoration: none;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+.container .menu ul li a:hover {
+    color: #fff;
+    text-shadow: 1px 1px 5px #0000ff;
+    transition: 0.2s;
+}
+
 .container{
     background-color: #f0f0f0;
     margin: 0 auto;
@@ -15,6 +42,33 @@ header .menu {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+.container h1,h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2vw;
+    margin-bottom: 1.5vw;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 2vw;
+    margin-bottom: 1.5vw;
+}
+h2 {
+    font-size: 1.2em;
+}
+h3{
+    font-size: 1em;
+}
+.container .contato {
+    text-align: center;    
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    border-radius: 5px;
+    
 }
 footer{
     background: linear-gradient(to bottom, #f0f0f0 0%, #0000ff 100%);
