@@ -1,0 +1,12 @@
+/* celular */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    /* Styles */
+    body {
+        background-color: rgb(20, 21, 12);
+        color: goldenrod;
+    }
+}
