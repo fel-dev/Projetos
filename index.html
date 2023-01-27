@@ -9,30 +9,33 @@
     <title>Felipe Carneiro</title>
     <!-- reset css -->
     <link rel="stylesheet" href="/assets/css/reset.css">
-    <!-- css mobile -->
-    <link rel="stylesheet" href="/assets/css/mobile.css" media="(max-width: 939px)">
-    <!-- css -->
+    <!-- font do google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">    
+    <!-- css padrão tanto para desktop quanto para mobile-->
     <link rel="stylesheet" href="/assets/css/style.css">
-    <!-- form -->
-    <link rel="stylesheet" href="/assets/css/form.css">
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <!-- css mobile portrait-->
+    <link rel="stylesheet" href="/assets/css/mobile.css" media="(max-width: 480px)">
+    <!-- css desktop-->
+    <link rel="stylesheet" href="/assets/css/desktop.css" media="(min-width: 940px)">
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="container">
-            <div class="logo">
-                <a href="index.html">Felipe-TI</a>
+            <div class="titulo">
+                <img class="perfil-foto" src="https://media.licdn.com/dms/image/D4D03AQEhALHRvvHuhA/profile-displayphoto-shrink_800_800/0/1674600920065?e=1680134400&v=beta&t=s3D9uIrJJQ3PfHuRTTPULmxlGkd-qf1cHRH1nr8Fvek" alt="">
             </div>
             <nav class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    <li class="idiomas">
+                <ul class="menu-lista">
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="#sobre">Sobre</a></li>
+                    <li class="menu-item"><a href="#contato">Contato</a></li>
+                    <li class="menu-item idiomas">
                         <a href="index.html" alt="pt-BR">&#127463;&#127479;</a>
                         <a href="/assets/html/index-en.html" alt="en-US">&#127482;&#127474;</a>
+                    </li>
+                    <li class="menu-item up-page">
+                        <a href="#home">&#11014;</a>
                     </li>
                 </ul>
             </nav>
@@ -85,41 +88,41 @@
         </section>
         <section class="servicos">
             <div class="container">
-                <div class="servicos-text">
+                <div class="servicos-texto">
                     <h2>Serviços</h2>
                     <p>
-                    <ul>
-                        <li>
+                    <ul class="servicos-lista">
+                        <li class="servicos-item">
                             <strong>Desenvolvimento web</strong>: Utilizando as tecnologias HTML, CSS e Java Script,
                             posso
                             criar páginas web profissionais e modernas, que atendam às necessidades do cliente.
                         </li>
-                        <li>
+                        <li class="servicos-item">
                             <strong>Desenvolvimento de sistemas</strong>: Com minhas habilidades em Python, posso
                             desenvolver programas personalizados para automatizar tarefas ou criar soluções para
                             problemas
                             específicos.
                         </li>
-                        <li>
+                        <li class="servicos-item">
                             <strong>Configuração de redes</strong>: Com minha formação em CCNA, posso ajudar a
                             configurar e
                             manter redes de computadores, garantindo a conectividade e a segurança dos dispositivos.
                         </li>
-                        <li>
+                        <li class="servicos-item">
                             <strong>Manutenção de computadores</strong> Possuo habilidades para instalar, configurar e
                             manter computadores, garantindo que eles estejam sempre funcionando de ótima maneira.
                         </li>
-                        <li>
+                        <li class="servicos-item">
                             <strong>Proatividade</strong>: Com minha experiência em lidar com problemas, posso ajudar a
                             resolver problemas de forma rápida e eficiente.
                         </li>
-                        <li>
+                        <li class="servicos-item">
                             <strong>Trabalho em equipe</strong>: Com minha experiência em trabalhar em equipe, posso
                             ajudar
                             a gerenciar projetos, garantindo que todos os prazos sejam cumpridos e as tarefas estejam
                             alinhadas com o objetivo final.
                         </li>
-                        <li>
+                        <li class="servicos-item">
                             <strong>Ensino</strong>: Com minha experiência em ensinar meus colegas de classe, posso
                             ajudar a
                             ensinar novos programadores, garantindo que eles aprendam de forma eficiente.

@@ -1,0 +1,144 @@
+/* tela desktop */
+@media (min-width: 1024px) {
+  body {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #aaa;
+  }
+
+  /* header fixo moderno*/
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px #aaa;
+    z-index: 999;
+  }
+
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .perfil-foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+  }
+
+  .menu-item {
+    float: left;
+    margin: 0 10px;
+    line-height: 100px;
+  }
+
+  .idiomas {
+    float: right;
+    line-height: 100px;
+  }
+
+  .up-page {
+    /* esse botão acompanhará a tela e servirá para voltar ao topo da página */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #aaa;
+    z-index: 999;
+  }
+
+  .up-page a {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    color: #000;
+  }
+
+  .menu-item a {
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+
+  .menu-item a:hover {
+    color: #00f;
+    text-decoration: underline;
+  }
+
+  /* conteúdo */
+  main .container {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    box-shadow: 1px 1px 10px #444;
+    margin-top: 20px;
+    border-radius: 10px;
+
+  }
+
+  main .container h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  main .container p {
+    font-size: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+
+  main .container h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  main .container h3 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .servicos {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    box-shadow: 1px 1px 10px #444;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .servicos .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .servicos strong {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .servicos li{
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+
+}
