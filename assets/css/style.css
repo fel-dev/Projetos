@@ -4,5 +4,5 @@ body{
     font-family: 'Roboto', sans-serif;
     /* gradiant color blue white blue top bottom top*/
     background: linear-gradient(to bottom, #f0f0f0,#00b4db, #0083b0, #016789);
-    
+    text-shadow: 1px 1px 1px #aaa;
 }

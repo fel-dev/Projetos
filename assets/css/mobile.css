@@ -1,9 +1,63 @@
 /* celular */
-@media (min-width: 1024px)
+@media (max-width: 480px)
 and (orientation: portrait) {
     /* Styles */
     body {
-        background-color: rgb(20, 21, 12);
-        color: goldenrod;
+        font-size: 20px;
+    }
+    header{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-color: #f0f0f0;
+        box-shadow: 0 0 10px #aaa;
+        z-index: 999;
+    }
+
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .perfil-foto {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        float: left;
+    }
+
+    .menu-item {
+        float: left;
+        margin: 0 10px;
+        line-height: 50px;
+    }
+
+    .idiomas {
+        float: right;
+        line-height: 50px;
+    }
+
+    .up-page {
+        /* esse botão acompanhará a tela e servirá para voltar ao topo da página */
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #aaa;
+        z-index: 999;
+    }
+
+    .up-page a {
+        display:block;
+        text-align: center;
+        line-height: 50px;
+        font-size: 50px;
+        color: #000;
+        text-decoration: none;
     }
 }
