@@ -11,13 +11,13 @@
     <!-- font do google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <!-- css padrão tanto para desktop quanto para mobile-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- css mobile portrait and orientação landscape -->
-    <link rel="stylesheet" href="./assets/css/mobile.css" media="(max-width: 1078px) or (orientation: portrait)">
+    <link rel="stylesheet" href="../css/mobile.css" media="(max-width: 1078px) or (orientation: portrait)">
     
     <!-- css desktop-->
-    <link rel="stylesheet" href="./assets/css/desktop.css" media="(min-width: 1079px) or (orientation: landscape)">
+    <link rel="stylesheet" href="../css/desktop.css" media="(min-width: 1079px) or (orientation: landscape)">
 </head>
 
 <body>
@@ -200,19 +200,20 @@
             <div class="container">
                 <div class="contato-text">
                     <h2>Contact</h2>
-                    <form>
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="E-mail">
-                        <textarea placeholder="Mensagem"></textarea>
+                    <form action="https://formspree.io/f/xrgveaqz"
+                    method="POST">
+                        <input type="text" name="text" placeholder="Your name">
+                        <input type="email" name="email" placeholder="Your e-mail">
+                        <textarea name="message" placeholder="Your message"></textarea>
                         <button type="submit">Submit</button>
                     </form>
                     <div class="redes-sociais">
                         <a href="https://github.com/fel-dev" target="_blank" rel="noopener noreferrer">
-                            <img src="img/github.png" alt="Github">
+                            <img src="../img/github-icon.png" alt="Github">
                         </a>
                         <a href="https://www.linkedin.com/in/felipe-carneiro-dev" target="_blank"
                             rel="noopener noreferrer">
-                            <img src="img/linkedin.png" alt="Linkedin">
+                            <img src="../img/linkedin-icon.png" alt="Linkedin">
                         </a>
                     </div>
                 </div>
