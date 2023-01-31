@@ -122,6 +122,7 @@ or (orientation: portrait) {
     main .badge {
         width: auto;
         height: 250px;
+        padding-left: 100px;
     }
 
     main .container h2 {
@@ -166,6 +167,12 @@ or (orientation: portrait) {
         text-align: justify;
         font-size: 20px;
         margin-bottom: 10px;
+    }
+
+    .servicos li a {
+        color: #000;
+        text-decoration: none;
+        transition: .5s;
     }
 
     .projetos {
