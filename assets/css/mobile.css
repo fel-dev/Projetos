@@ -259,22 +259,18 @@ or (orientation: portrait) {
     footer {
         width: 100%;
         height: 100px;
-        background-color: #00b4db;
         text-align: center;
         line-height: 100px;
-        color: #fff;
         font-size: 20px;
         font-weight: bold;
     }
 
     footer a {
-        color: #fff;
         text-decoration: none;
         transition: .5s;
     }
 
     footer a:hover {
-        color: #000;
         transition: .5s;
     }
 
