@@ -20,7 +20,7 @@ footer{
     color: #000;
 }
 
-/* fazer com que a página suba suavemente ao clicar no botão .up-page */
+/* página rola suavementa .up-page */
 html{
     scroll-behavior: smooth;
     transition: all 5s ease-in-out;
