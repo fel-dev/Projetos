@@ -1,6 +1,5 @@
 /* celular */
-@media (max-width: 1078px)
-or (orientation: portrait) {
+@media (max-width: 1078px){
     /* Styles */
     body {
         font-size: 20px;
