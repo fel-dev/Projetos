@@ -39,6 +39,8 @@ or (orientation: portrait) {
         line-height: 50px;
     }
 
+    /* fora de operação 
+    substituído por #topBtn em style.css*/
     .up-page {
         /* esse botão acompanhará a tela e servirá para voltar ao topo da página */
         position: fixed;

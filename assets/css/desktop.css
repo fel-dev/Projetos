@@ -39,8 +39,8 @@
     line-height: 100px;
   }
 
-  .up-page {
-    /* esse botão acompanhará a tela e servirá para voltar ao topo da página */
+     /* essa função foi substituída pelo #topBtn em style.css */
+  .up-page { 
     position: fixed;
     bottom: 20px;
     right: 20px;
