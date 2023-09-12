@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Felipe Carneiro | BR</title>
     <!-- reset css -->
     <link rel="stylesheet" href="./assets/css/reset.css">
@@ -12,10 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <!-- css tanto desktop quanto mobile-->
     <link rel="stylesheet" href="./assets/css/style.css">
-    
+
     <!-- css mobile portrait and orientação landscape -->
     <link rel="stylesheet" href="./assets/css/mobile.css">
-    
+
     <!-- css desktop-->
     <link rel="stylesheet" href="./assets/css/desktop.css">
 </head>
@@ -24,12 +23,13 @@
     <header id="home">
         <div class="container">
             <div class="titulo">
-                <img class="perfil-foto" src="https://media.licdn.com/dms/image/D4D03AQEhALHRvvHuhA/profile-displayphoto-shrink_800_800/0/1674600920065?e=1694044800&v=beta&t=8DljW1pRepyxbxm8GNMnrV2jjvFS-nadyFcV7NKDi2I" alt="Foto de perfil>
+                <img class="perfil-foto" src="assets/img/foto-perfil.jpg" alt="Foto de perfil>
             </div>
-            <nav class="menu">
-                <ul class="menu-lista">                    
+            <nav class=" menu">
+                <ul class="menu-lista">
                     <li class="menu-item"><a href="#sobre">Sobre</a></li>
                     <li class="menu-item"><a href="#contato">Contato</a></li>
+                    <li class="menu-item"><a href="#projetos">Projetos</a></li>
                     <li class="menu-item idiomas">
                         <a href="./index.html" alt="pt-BR">🇧🇷</a>
                         <a href="./assets/html/index-en.html" alt="en-US">🇺🇸</a>
@@ -38,31 +38,32 @@
                         <a href="#home">&#11014;</a>
                     </li> -->
                 </ul>
-            </nav>
-            <!-- botão  de rolar a pagina pra cima -->
-            <button onclick="topFunction()" id="topBtn" title="Go to top">&#11014;</button>
-        </div>
+                </nav>
+                <!-- botão  de rolar a pagina pra cima -->
+                <button onclick="topFunction()" id="topBtn" title="Go to top">&#11014;</button>
+            </div>
     </header>
 
     <main>
         <section class="banner">
             <div class="container">
                 <div class="banner-text">
-                    <h1>Desenvolvedor Web</h1>
+                    <h1>Desenvolvedor de Software</h1>
                     <p>
-                        Desenvolvedor Web com experiência em HTML, CSS, Javascript. Formado em Ciências Aeronáuticas, e
-                        realizando tecnólogo em análise e desenvolvimento de sistemas na PUC-MINAS. Tenho conhecimento
-                        em Python, NodeJs, C#, C++, MySQl, CCNA-1, metodologias ágeis (SCRUM).
-                    </p>                  
+                        Certificado pela <abbr title="Pontifícia Universidade Católica de Minas Gerais.">PUC</abbr> em 06/2023 como Desenvolvedor de Software, sou bacharel em Ciências Aeronáuticas (06/2016) na Estácio de Sá. Cursando 3º período da 2ª graduação, tecnólogo em Análise e Desenvolvimento de Sistemas na PUC (12/2024). Tenho <a href="#projetos">projetos</a> em <abbr title="ASP.NET é a plataforma da Microsoft para o desenvolvimento de aplicações Web e é o sucessor da tecnologia ASP. Permite, através de uma linguagem de programação integrada na .NET Framework, criar páginas dinâmicas. Não é nem uma linguagem de programação como VBScript, PHP, nem um servidor web como IIS ou Apache. ">Asp.NET</abbr> e <abbr title="React Native é uma biblioteca JavaScript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.">React Native</abbr>.
+                    </p>
 
                     <section class="contato">
-                        <p>Contacts: +552198366-1521</p>
-                        <p>GitHub: github.com/fel-dev</p>
-                        <p>E-mail: correaflp@gmail.com</p>
-                    </section>                    
+                        <p>GitHub: <a href="https://github.com/fel-dev" target="_blank">fel-dev</a></p>
+                        <p>correaflp@gmail.com</p>
+                        <p>+55 (0XX21) 9 8366-1521</p>
+                    </section>
                 </div>
                 <section class="badge">
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="dc45a230-2170-4504-8c67-1eb3ceb6a2de" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270"
+                        data-share-badge-id="dc45a230-2170-4504-8c67-1eb3ceb6a2de"
+                        data-share-badge-host="https://www.credly.com"></div>
+                    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                 </section>
             </div>
         </section>
@@ -91,55 +92,54 @@
                 </div>
             </div>
         </section>
-        <section class="servicos">
-            <div class="container">
-                <div class="servicos-texto">
-                    <h2>Serviços</h2>
-                    <p>
-                    <ul class="servicos-lista">
-                        <li class="servicos-item">
-                            <strong>Desenvolvimento web</strong>: Utilizando as tecnologias HTML, CSS e Java Script,
-                            posso
-                            criar páginas web profissionais e modernas, que atendam às necessidades do cliente.
-                        </li>
-                        <li class="servicos-item">
-                            <strong>Desenvolvimento de sistemas</strong>: Com minhas habilidades em Python, posso
-                            desenvolver programas personalizados para automatizar tarefas ou criar soluções para
-                            problemas
-                            específicos.
-                        </li>
-                        <li class="servicos-item">
-                            <strong>Configuração de redes</strong>: Com minha formação em CCNA, posso ajudar a
-                            configurar e
-                            manter redes de computadores, garantindo a conectividade e a segurança dos dispositivos.
-                        </li>
-                        <li class="servicos-item">
-                            <strong>Manutenção de computadores</strong> Possuo habilidades para instalar, configurar e
-                            manter computadores, garantindo que eles estejam sempre funcionando de ótima maneira.
-                        </li>
-                        <li class="servicos-item">
-                            <strong>Proatividade</strong>: Com minha experiência em lidar com problemas, posso ajudar a
-                            resolver problemas de forma rápida e eficiente.
-                        </li>
-                        <li class="servicos-item">
-                            <strong>Trabalho em equipe</strong>: Com minha experiência em trabalhar em equipe, posso
-                            ajudar
-                            a gerenciar projetos, garantindo que todos os prazos sejam cumpridos e as tarefas estejam
-                            alinhadas com o objetivo final.
-                        </li>
-                        <li class="servicos-item">
-                            <strong>Ensino</strong>: Com minha experiência em ensinar meus colegas de classe, posso
-                            ajudar a
-                            ensinar novos programadores, garantindo que eles aprendam de forma eficiente.
-                        </li>
-                    </ul>
-                    </p>
-                </div>
+        <section class="servicos container">
+            <div class="servicos-texto">
+                <h2>Serviços</h2>
+                <p>
+                <ul class="servicos-lista">
+                    <li class="servicos-item">
+                        <strong>Desenvolvimento web</strong>: Utilizando as tecnologias HTML, CSS e Java Script,
+                        posso
+                        criar páginas web profissionais e modernas, que atendam às necessidades do cliente.
+                    </li>
+                    <li class="servicos-item">
+                        <strong>Desenvolvimento de sistemas</strong>: Com minhas habilidades em Python, posso
+                        desenvolver programas personalizados para automatizar tarefas ou criar soluções para
+                        problemas
+                        específicos.
+                    </li>
+                    <li class="servicos-item">
+                        <strong>Configuração de redes</strong>: Com minha formação em CCNA, posso ajudar a
+                        configurar e
+                        manter redes de computadores, garantindo a conectividade e a segurança dos dispositivos.
+                    </li>
+                    <li class="servicos-item">
+                        <strong>Manutenção de computadores</strong> Possuo habilidades para instalar, configurar e
+                        manter computadores, garantindo que eles estejam sempre funcionando de ótima maneira.
+                    </li>
+                    <li class="servicos-item">
+                        <strong>Proatividade</strong>: Com minha experiência em lidar com problemas, posso ajudar a
+                        resolver problemas de forma rápida e eficiente.
+                    </li>
+                    <li class="servicos-item">
+                        <strong>Trabalho em equipe</strong>: Com minha experiência em trabalhar em equipe, posso
+                        ajudar
+                        a gerenciar projetos, garantindo que todos os prazos sejam cumpridos e as tarefas estejam
+                        alinhadas com o objetivo final.
+                    </li>
+                    <li class="servicos-item">
+                        <strong>Ensino</strong>: Com minha experiência em ensinar meus colegas de classe, posso
+                        ajudar a
+                        ensinar novos programadores, garantindo que eles aprendam de forma eficiente.
+                    </li>
+                </ul>
+                </p>
             </div>
         </section>
-        <section class="projetos">
+
+        <section id="projetos">
             <div class="container">
-                <div class="projetos-text">
+                <div class="projetos  projetos-text">
                     <h2>Projetos</h2>
                     <p>Nesta seção, eu mostrarei alguns dos meus projetos mais recentes e interessantes.</p>
                     <ol>
@@ -147,14 +147,17 @@
                             <h3>Project 1</h3>
                             <ul>
                                 <li>
-                                    <a href="https://fel-dev.github.io/EasyCleanMate/" target="_blank" rel="noopener noreferrer">
-                                        <abbr title="Limpeza eficiente e segura: Meu script de limpeza de arquivos temporários do Windows, baseado no conceito do popular programa CCleaner, foi desenvolvido com precisão para remover apenas arquivos desnecessários sem prejudicar os logs do sistema ou do Windows Update, especialmente útil para usuários de discos rígidos.">EasyCleanMate BETA </abbr></a>
-                                        <span class="note">(<strong>Antigo</strong> <i>"Ah, Moleque´s! Cleaner"</i>)</span>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Project 2</h3>
+                                    <a href="https://fel-dev.github.io/EasyCleanMate/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <abbr
+                                            title="Limpeza eficiente e segura: Meu script de limpeza de arquivos temporários do Windows, baseado no conceito do popular programa CCleaner, foi desenvolvido com precisão para remover apenas arquivos desnecessários sem prejudicar os logs do sistema ou do Windows Update, especialmente útil para usuários de discos rígidos.">EasyCleanMate
+                                            BETA </abbr></a>
+                                    <span class="note">(<strong>Antigo</strong> <i>"Ah, Moleque´s! Cleaner"</i>)</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Project 2</h3>
                             <ul>
                                 <li>
                                     Conheça o projeto <a
@@ -163,13 +166,13 @@
                                             title="Este projeto foi desenvolvido durante o meu primeiro semestre de faculdade, é uma página básica de Front-End e utilizamos apenas HTML5, CSS puro e Java Script. Ele foi idealizado por mim e produzido com mais 3 colegas de classe e um professor para nos orientar. Clique para saber mais sobre como foi minha jornada de desenvolvimento e como funciona o projeto">Life
                                             Safe</abbr></a>
                                 </li>
-                                </li>
-                                    <li>
-                                        E veja também o <a
-                                            href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo_2"
-                                            target="_blank" rel="noopener noreferrer">repositório no Github</a>
-                                    </li>
-                            </ul>
+                        </li>
+                        <li>
+                            E veja também o <a
+                                href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo_2"
+                                target="_blank" rel="noopener noreferrer">repositório no Github</a>
+                        </li>
+                        </ul>
                         </li>
                         <li>
                             <h3>Project 3</h3>
@@ -191,7 +194,27 @@
                                             title="O programa em Python que criei é destinado a alterar o tema do Windows 10 ao acessar os registros do sistema. Ele é executado como um arquivo EXE e pode ser utilizado como uma demonstração de minhas habilidades de programação e conhecimento em como modificar configurações do sistema operacional.">Personalizador
                                             de Tema do Windows</abbr></a></li>
                             </ul>
-                        </li> 
+                        </li>
+
+                        <li>
+                            <h3>Project 5</h3>
+                            <ul>
+                                <li>
+                                    Meet <a href="https://fel-dev.github.io/decodificador-de-textos/" target="_blank"
+                                        rel="noopener noreferrer"><abbr
+                                            title="Web application developed with a photo on the front-end, which aims to encrypt and decrypt messages in a basic way. This project was challenging at the time, but I managed to overcome the difficulties and deliver this result efficiently.">Decoder
+                                            messages</abbr></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Project 6</h3>
+                            <ul>
+                                <li>
+                                    My current college project, check out the progress of <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-ifix" target="_blank" rel="noopener noreferrer"><abbr title="O aplicativo para a assistência técnica autorizada Apple foi projetado para fornecer aos clientes uma maneira conveniente e transparente de acompanhar o status dos reparos de seus dispositivos. O sistema foi pensado para ser prático, intuitivo e de fácil navegação, proporcionando aos usuários uma ótima experiência com serviço contratado.">iFix</abbr></a>
+                                </li>
+                            </ul>
+                        </li>
                     </ol>
                 </div>
             </div>
@@ -200,13 +223,21 @@
             <div class="container">
                 <div class="contato-text">
                     <h2>Contato</h2>
-                    <form action="https://formspree.io/f/xrgveaqz"
-                    method="POST">
-                        <input type="text" name="name" placeholder="Your name">
-                        <input type="email" name="email" placeholder="Your e-mail">
-                        <textarea name="message" placeholder="Your message"></textarea>
-                        <button type="submit">Submit</button>
+                    <form action="https://formspree.io/f/xrgveaqz" method="POST">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" placeholder="Seu Nome" required>
+
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder='Por favor, insira um email válido usando: "gmail", "hotmail" ou "outlook" com ".com" ou ".com.br".' required>
+
+                        <label for="message">Mensagem</label>
+                        <textarea name="message"
+                            placeholder="Olá! Tudo bem? Gostaria de orçar um website com você! Desejo um website simples, como um cartão de visitas digital. Atencisamente! Fico no aguardo."
+                            required></textarea>
+
+                        <input id="submit" type="submit" value="Enviar">
                     </form>
+
                     <div class="redes-sociais">
                         <a href="https://github.com/fel-dev" target="_blank" rel="noopener noreferrer">
                             <img src="assets/img/github-icon.png" alt="Github">

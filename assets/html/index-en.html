@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Felipe Carneiro | US</title>
     <!-- reset css -->
     <link rel="stylesheet" href="../css/reset.css">
@@ -25,13 +24,15 @@
         <div class="container">
             <div class="titulo">
                 <img class="perfil-foto"
-                    src="https://media.licdn.com/dms/image/D4D03AQEhALHRvvHuhA/profile-displayphoto-shrink_800_800/0/1674600920065?e=1694044800&v=beta&t=8DljW1pRepyxbxm8GNMnrV2jjvFS-nadyFcV7NKDi2I"
+                    src="../img/foto-perfil.jpg"
                     alt="profile photo">
             </div>
             <nav class="menu">
                 <ul class="menu-lista">
                     <li class="menu-item"><a href="#sobre">About</a></li>
                     <li class="menu-item"><a href="#contato">Contact</a></li>
+                    <li class="menu-item"><a href="#projetos">projects</a></li>
+
                     <li class="menu-item idiomas">
                         <a href="../../index.html" alt="pt-BR">🇧🇷</a>
                         <a href="./index-en.html" alt="en-US">🇺🇸</a>
@@ -50,17 +51,15 @@
         <section class="banner">
             <div class="container">
                 <div class="banner-text">
-                    <h1>Web developer</h1>
+                    <h1>Software developer</h1>
                     <p>
-                        Web developer with experience in HTML, CSS, Javascript. Graduated in Aeronautical Sciences, and
-                        studying technologist in systems analysis and development at PUC-MINAS. I have knowledge in
-                        Python, NodeJs, C#, C++, MySQl, CCNA-1, agile methodologies (SCRUM).
+                        Certified by <abbr title="The Pontifical Catholic University of Minas gerais is a Catholic Brazilian higher education institution, located in Belo Horizonte, capital of the state of Minas gerais">PUC</abbr> on 2023/06 as a Software developer, I have a bachalor's degree in Aeronautical Sciences (2016/06) at <abbr title="The Estácio de Sá University is a Brazilian university fouded in 1970 in the neighborhood of Rio Comprido, in the Central Zone of Rio de Janeiro.">Estácio de Sá</abbr>. Studying 3rd period of 2nd degree, technologist in Systems Analysis and Development at PUC (2024/12). I have <a href="#projetos">projects</a> in: <abbr title="Free, Cross-platform and Open source. Is a framework for building web apps and services with .NET and C#.">ASP.NET</abbr>, <abbr title=" React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces. ">React-Native</abbr>, among other.
                     </p>
 
                     <section class="contato">
-                        <p>Contacts: +552198366-1521</p>
-                        <p>GitHub: github.com/fel-dev</p>
-                        <p>E-mail: correaflp@gmail.com</p>
+                        <p>correaflp@gmail.com</p>
+                        <p>GitHub: <a href="https://github.com/fel-dev" target="_blank">fel-dev</a></p>
+                        <p>+55 21 983 661 521</p>
                     </section>
                 </div>
                 <section class="badge">
@@ -93,8 +92,7 @@
                 </div>
             </div>
         </section>
-        <section class="servicos">
-            <div class="container">
+        <section class="servicos container">
                 <div class="servicos-text">
                     <h2>Services</h2>
                     <ul class="servicos-lista">
@@ -127,13 +125,13 @@
                             programmers, ensuring they learn efficiently.
                         </li>
                     </ul>
-                </div>
             </div>
         </section>
-        <section class="projetos">
+
+        <section id="projetos" class="">
             <div class="container">
-                <div class="projetos-text">
-                    <h2>projects</h2>
+                <div class="projetos  projetos-text">
+                    <h2>Examples of Projects</h2>
                     <p>In this section, I'll showcase some of my most recent and interesting projects.</p>
                     <ol>
                         <li>
@@ -196,6 +194,15 @@
                                 </li>
                             </ul>
                         </li>
+                        <li>
+                            <h3>Project 6</h3>
+                            <ul>
+                                <li>
+                                    My current college project, get to know the progress of <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-ifix" target="_blank" rel="noopener noreferrer"><abbr title="O aplicativo para a assistência técnica autorizada Apple foi projetado para fornecer aos clientes uma maneira conveniente e transparente de acompanhar o status dos reparos de seus dispositivos. O sistema foi pensado para ser prático, intuitivo e de fácil navegação, proporcionando aos usuários uma ótima experiência com serviço contratado.">iFix</abbr></a>
+                                </li>
+                            </ul>
+                        </li>
+
                     </ol>
                 </div>
             </div>
@@ -204,12 +211,27 @@
             <div class="container">
                 <div class="contato-text">
                     <h2>Contact</h2>
-                    <form action="https://formspree.io/f/xrgveaqz" method="POST">
-                        <input type="text" name="name" placeholder="Your name">
-                        <input type="email" name="email" placeholder="Your e-mail">
-                        <textarea name="message" placeholder="Your message"></textarea>
-                        <button type="submit">Submit</button>
+                    <form action="https://formspree.io/f/xrgveaqz" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Your Name" required>
+
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder='Valid email is "gmail", "hotmail" or "outlook" with ".com" or ".com.br"' required>
+
+                        <label for="message">Message</label>
+                        <textarea name="message" placeholder="Hello! How are you? 
+                        
+I would like to quote a website with you!
+                        
+I want a simple one, like a digital business card. 
+
+Best regards!
+
+I'm waiting" required></textarea>
+                        
+                        <input id="submit" type="submit" value="Submit">
                     </form>
+
                     <div class="redes-sociais">
                         <a href="https://github.com/fel-dev" target="_blank" rel="noopener noreferrer">
                             <img src="../img/github-icon.png" alt="Github">
